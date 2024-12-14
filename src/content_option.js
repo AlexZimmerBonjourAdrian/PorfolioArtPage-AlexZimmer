@@ -72,67 +72,47 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
+const dataportfolio = [
 
+   
+    
     {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
         link: "#",
     },
     {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
         link: "#",
     },
+   
 ];
 
 const contactConfig = {
