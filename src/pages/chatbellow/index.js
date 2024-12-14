@@ -2,9 +2,9 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio, meta } from "../../../content_option";
+import { dataportfolio, meta } from "../../content_option";
 
-export const Portfolio = () => {
+export const Chatbellow = () => {
   return (
     <HelmetProvider>
       <Container className="About-header">

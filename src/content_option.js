@@ -72,10 +72,541 @@ const services = [{
     },
 ];
 
+const dataDraconianoproyect = [
+
+    {
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
+        link: "#",
+    },
+   
+];
+
+const dataagoodandbadplace = [
+
+    {
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
+        link: "#",
+    },
+   
+];
+
+const datachatbellow= [
+
+    {
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
+        link: "#",
+    },
+   
+];
+
+const dataFinaatfreedys = [
+
+    {
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
+        link: "#",
+    },
+   
+];
+
+const datahowtoInterviewrabbit = [
+
+    {
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
+        link: "#",
+    },
+   
+];
+
+const dataloopdetectiveadventure = [
+
+    {
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
+        link: "#",
+    },
+   
+];
+
+const datamonsterdemonsanddragons = [
+
+    {
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
+        link: "#",
+    },
+   
+];
+const datanotsurrender = [
+
+    {
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
+        link: "#",
+    },
+   
+];
+
+const dataoutsideofthecult = [
+
+    {
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
+        link: "#",
+    },
+   
+];
+
+const datapowergunofchildrens = [
+
+    {
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
+        link: "#",
+    },
+   
+];
+const datashatteredmainds = [
+
+    {
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
+        link: "#",
+    },
+   
+];
+
+const datatravelers = [
+
+    {
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
+        link: "#",
+    },
+   
+];
+
+const  datawonderlandofHorror = [
+
+    {
+        img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
+        description: "Juno Concept Art",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/wBhSvpG/Wonderland-Characters.jpg",
+        description: "Wonderland Characters",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/JdwLN1z/Wonderland-Juno.jpg",
+        description: "Juno Final Desing",
+        link: "#",
+    },
+  
+    {
+        img: "https://i.ibb.co/bgLf6Z4/Pow-Childeen-Hood.jpg",
+        description: "Pow Childeen Hood Character Antagonist and Protagonist",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/fv5GfVp/Draconiano-Logo.jpg",
+        description: "Draconiano Logo",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/YfTrHjx/Markus-Blank.png",
+        description: "Markus Design",
+        link: "#",
+    },
+    {
+        img: "https://i.ibb.co/R2VmYg0/Draconiano-1.jpg",
+        description: "Markus Design",
+        link: "#",
+    },
+   
+];
+
+
+
 const dataportfolio = [
 
-   
-    
     {
         img: "https://i.ibb.co/Z8DCFkr/Juno-Concetp.jpg",
         description: "Juno Concept Art",
@@ -136,6 +667,18 @@ export {
     meta,
     dataabout,
     dataportfolio,
+    dataDraconianoproyect,
+    datachatbellow,
+    datanotsurrender,
+    dataFinaatfreedys,
+    datahowtoInterviewrabbit,
+    dataloopdetectiveadventure,
+    datamonsterdemonsanddragons,
+    dataoutsideofthecult,
+    datapowergunofchildrens,
+    datashatteredmainds,
+    datatravelers,
+    datawonderlandofHorror,
     worktimeline,
     skills,
     services,

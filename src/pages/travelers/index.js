@@ -2,8 +2,7 @@ import React from "react";
 import "./style.css";
 import { Helmet, HelmetProvider } from "react-helmet-async";
 import { Container, Row, Col } from "react-bootstrap";
-import { dataportfolio,
-  datawonderlandofHorror ,datatravelers ,meta } from "../../content_option";
+import { dataportfolio, meta } from "../../content_option";
 
 export const Portfolio = () => {
   return (
@@ -34,39 +33,6 @@ export const Portfolio = () => {
             );
           })}
         </div>
-          
-          <h2>Wonderland Of Horror</h2>
-        <div className="mb-5 po_items_ho">
-          {datawonderlandofHorror.map((data, i) => {
-            return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
-                <div className="content">
-                  <p>{data.description}</p>
-
-                  <a href={data.link}>view project</a>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-
-        <h2>travelers</h2>
-        <div className="mb-5 po_items_ho">
-          {datatravelers.map((data, i) => {
-            return (
-              <div key={i} className="po_item">
-                <img src={data.img} alt="" />
-                <div className="content">
-                  <p>{data.description}</p>
-
-                  <a href={data.link}>view project</a>
-                </div>
-              </div>
-            );
-          })}
-        </div>
-        
       </Container>
     </HelmetProvider>
   );

@@ -46,6 +46,58 @@ const Headermain = () => {
                   <li className="menu_item">
                   <Link onClick={handleToggle} to="/contact" className="my-3"> Contact</Link>
                   </li>
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/draconianoproject" className="my-3"> Draconiano</Link>
+                  </li>
+
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/chatbellow" className="my-3"> Chatbellow</Link>
+                  </li>
+
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/howtointerviewrabbit" className="my-3"> how to Interview rabbit</Link>
+                  </li>
+
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/Finaatfreedys" className="my-3"> Final at freedys fangame</Link>
+                  </li>
+
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/loopdetectiveadventure" className="my-3"> Loop Detective Adventure</Link>
+                  </li>
+
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/monsterdemonsanddragons" className="my-3"> Monster Demonsand Dragons</Link>
+                  </li>
+
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/notsurrender" className="my-3"> Not Surrender</Link>
+                  </li>
+
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/powergunofchildrens" className="my-3"> A Power Gun Of Childrens</Link>
+                  </li>
+
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/shattermainds" className="my-3"> Shattered Mainds</Link>
+                  </li>
+                  
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/outsideofthecult" className="my-3"> Outside Of the cult</Link>
+                  </li>
+
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/wonderlandofhorror" className="my-3"> Wonderland of Morror</Link>
+                  </li>
+                  
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/agoodandbadplace" className="my-3"> A good And Bad Place</Link>
+                  </li>
+
+                  <li className="menu_item">
+                  <Link onClick={handleToggle} to="/travelers" className="my-3"> Travelers</Link>
+                  </li>
+
                 </ul>
               </div>
             </div>
@@ -56,7 +108,7 @@ const Headermain = () => {
             <a href={socialprofils.github}>Github</a>
             <a href={socialprofils.twitter}>Twitter</a>
             </div>
-            <p className="copyright m-0">copyright __ {logotext}</p>
+            <p className="copyright m-0">copyright Zimmzimmgames 2022. all rights reserved.{logotext}</p>
           </div>
         </div>
       </header>
