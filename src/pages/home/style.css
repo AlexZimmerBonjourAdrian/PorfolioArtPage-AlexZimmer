@@ -104,7 +104,7 @@ section {
     position: relative;
     border: var(--secondary-color) 2px solid;
     overflow: hidden;
-    transition: all 0.6s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 0.6s cubic-bezier(0.55, 0, 0, 0.1, 1);
     cursor: pointer;
     border-radius: 0;
     margin-right: 20px;
@@ -147,21 +147,21 @@ section {
 
 .ac_btn .one {
     background-color: #000;
-    transition: all 0.3s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 0.3s cubic-bezier(0.55, 0, 0, 0.1, 1);
     z-index: -3;
     z-index: -4;
 }
 
 .ac_btn .two {
     background-color: var(--primary-color);
-    transition: all 0.5s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 0.5s cubic-bezier(0.55, 0, 0, 0.1, 1);
     z-index: -3;
 }
 
 .ac_btn .three {
     background-color: var(--secondary-color);
     z-index: -2;
-    transition: all 0.7s cubic-bezier(0.55, 0, 0.1, 1);
+    transition: all 0.7s cubic-bezier(0.55, 0, 0, 0.1, 1);
     z-index: -3;
 }
 
@@ -231,4 +231,561 @@ section {
 
 .intro_sec .h_bg-image {
     filter: saturate(0.5);
+}
+
+/* About Section Styles */
+.about-section {
+    padding: 6rem 0;
+    background: #f8f8f8;
+    min-height: 60vh;
+}
+
+.about-content {
+    max-width: 800px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.about-text {
+    font-family: 'Didact Gothic, sans-serif';
+    font-size: 1.1rem;
+    line-height: 1.8;
+    color: #333333;
+    margin-top: 2rem;
+}
+
+/* Skills Section Styles */
+.skills-section {
+    padding: 6rem 0;
+    background: #ffffff;
+    min-height: 60vh;
+}
+
+.skills-grid {
+    max-width: 800px;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.skill-item {
+    margin-bottom: 2rem;
+}
+
+.skill-info {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 0.5rem;
+}
+
+.skill-name {
+    font-family: 'Didact Gothic, sans-serif';
+    font-size: 1rem;
+    font-weight: 500;
+    color: #000000;
+}
+
+.skill-percentage {
+    font-family: 'Didact Gothic, sans-serif';
+    font-size: 0.9rem;
+    color: #666666;
+}
+
+.skill-bar {
+    width: 100%;
+    height: 4px;
+    background: #e0e0e0;
+    border-radius: 2px;
+    overflow: hidden;
+}
+
+.skill-progress {
+    height: 100%;
+    background: #000000;
+    border-radius: 2px;
+    transition: width 1s ease;
+}
+
+/* Services Section Styles */
+.services-section {
+    padding: 6rem 0;
+    background: #f8f8f8;
+    min-height: 60vh;
+}
+
+.services-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 2rem;
+    margin-top: 3rem;
+    max-width: 900px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.service-card {
+    background: #ffffff;
+    padding: 3rem 2rem;
+    border-radius: 8px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 150px;
+}
+
+.service-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.service-title {
+    font-family: 'Didact Gothic, sans-serif';
+    font-size: 1.5rem;
+    font-weight: 500;
+    color: #000000;
+    margin: 0;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+/* Contact Section Styles */
+.contact-section {
+    padding: 6rem 0;
+    background: #ffffff;
+    min-height: 60vh;
+}
+
+.contact-content {
+    max-width: 600px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.contact-description {
+    font-family: 'Didact Gothic, sans-serif';
+    font-size: 1.1rem;
+    line-height: 1.6;
+    color: #333333;
+    margin-bottom: 2rem;
+}
+
+.contact-info {
+    display: flex;
+    flex-direction: column;
+    gap: 1rem;
+    align-items: center;
+}
+
+.contact-item {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+}
+
+.contact-label {
+    font-family: 'Didact Gothic, sans-serif';
+    font-weight: 500;
+    color: #000000;
+}
+
+.contact-link {
+    font-family: 'Didact Gothic, sans-serif';
+    color: #666666;
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.contact-link:hover {
+    color: #000000;
+}
+
+/* Section Header Styles */
+.section-header {
+    text-align: center;
+    margin-bottom: 4rem;
+}
+
+.section-title {
+    font-family: 'Didact Gothic, sans-serif';
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+/* Portfolio Section Styles */
+.portfolio-section {
+    padding: 6rem 0;
+    background: #ffffff;
+    min-height: 100vh;
+}
+
+.portfolio-header {
+    text-align: center;
+    margin-bottom: 4rem;
+    max-width: 800px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.portfolio-title {
+    font-family: 'Didact Gothic, sans-serif';
+    font-weight: 400;
+    letter-spacing: '1px';
+    text-transform: uppercase;
+    color: #000000;
+    font-size: 2.5rem;
+    margin-bottom: 1rem;
+}
+
+.portfolio-description {
+    font-size: 1rem;
+    line-height: 1.6;
+    color: #666666;
+    font-family: 'Didact Gothic, sans-serif';
+    font-weight: 300;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+/* Art by Wu Style Navigation */
+.artbywu-navigation {
+    margin-bottom: 4rem;
+    border-bottom: 1px solid #e0e0e0;
+    padding-bottom: 2rem;
+}
+
+.nav-links {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    flex-wrap: wrap;
+}
+
+.nav-link {
+    background: transparent;
+    border: none;
+    color: #666666;
+    padding: 0;
+    font-family: 'Didact Gothic, sans-serif';
+    font-size: 1rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    position: relative;
+    padding-bottom: 0.5rem;
+}
+
+.nav-link::after {
+    content: '';
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 0;
+    height: 2px;
+    background: #000000;
+    transition: width 0.3s ease;
+}
+
+.nav-link:hover {
+    color: #000000;
+}
+
+.nav-link:hover::after {
+    width: 100%;
+}
+
+.nav-link.active {
+    color: #000000;
+}
+
+.nav-link.active::after {
+    width: 100%;
+}
+
+/* Art by Wu Style Gallery */
+.artbywu-gallery {
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+/* Main Image Section */
+.main-image-section {
+    margin-bottom: 3rem;
+}
+
+.image-container {
+    position: relative;
+    width: 100%;
+    height: 600px;
+    overflow: hidden;
+    background: #f8f8f8;
+}
+
+.main-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.8s ease;
+}
+
+.image-container:hover .main-image {
+    transform: scale(1.02);
+}
+
+.image-overlay {
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    background: linear-gradient(transparent, rgba(0, 0, 0, 0.7));
+    padding: 3rem 2rem 2rem;
+    color: #ffffff;
+    opacity: 0;
+    transition: opacity 0.4s ease;
+}
+
+.image-container:hover .image-overlay {
+    opacity: 1;
+}
+
+.image-details h3 {
+    font-family: 'Didact Gothic, sans-serif';
+    font-size: 1.3rem;
+    font-weight: 300;
+    margin-bottom: 1rem;
+    line-height: 1.4;
+    max-width: 600px;
+}
+
+.image-actions {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 1rem;
+}
+
+.image-number {
+    font-family: 'Didact Gothic, sans-serif';
+    font-size: 0.9rem;
+    font-weight: 400;
+    opacity: 0.8;
+}
+
+.view-link {
+    color: #ffffff;
+    text-decoration: none;
+    font-family: 'Didact Gothic, sans-serif';
+    font-size: 0.9rem;
+    font-weight: 400;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    border-bottom: 1px solid #ffffff;
+    padding-bottom: 2px;
+    transition: all 0.3s ease;
+}
+
+.view-link:hover {
+    color: #ffffff;
+    text-decoration: none;
+    border-bottom-color: transparent;
+}
+
+/* Thumbnail Grid - Art by Wu Style */
+.thumbnail-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    gap: 1.5rem;
+    margin-top: 2rem;
+}
+
+.thumbnail-item {
+    position: relative;
+    aspect-ratio: 4/3;
+    overflow: hidden;
+    cursor: pointer;
+    transition: all 0.4s ease;
+    border: 2px solid transparent;
+}
+
+.thumbnail-item.active {
+    border-color: #000000;
+}
+
+.thumbnail-item:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.15);
+}
+
+.thumbnail-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+    transition: transform 0.4s ease;
+    filter: grayscale(30%);
+}
+
+.thumbnail-item.active .thumbnail-image,
+.thumbnail-item:hover .thumbnail-image {
+    filter: grayscale(0%);
+    transform: scale(1.05);
+}
+
+.thumbnail-overlay {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background: rgba(0, 0, 0, 0.4);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    opacity: 0;
+    transition: opacity 0.3s ease;
+}
+
+.thumbnail-item:hover .thumbnail-overlay {
+    opacity: 1;
+}
+
+.thumbnail-number {
+    color: #ffffff;
+    font-family: 'Didact Gothic, sans-serif';
+    font-size: 1.1rem;
+    font-weight: 600;
+    background: rgba(0, 0, 0, 0.8);
+    padding: 8px 12px;
+    border-radius: 4px;
+}
+
+/* Responsive Design for Portfolio */
+@media (max-width: 1200px) {
+    .image-container {
+        height: 500px;
+    }
+    
+    .thumbnail-grid {
+        grid-template-columns: repeat(auto-fit, minmax(180px, 1fr));
+        gap: 1rem;
+    }
+}
+
+@media (max-width: 768px) {
+    .portfolio-section {
+        padding: 4rem 0;
+    }
+    
+    .image-container {
+        height: 400px;
+    }
+    
+    .nav-links {
+        gap: 2rem;
+        justify-content: center;
+    }
+    
+    .nav-link {
+        font-size: 0.9rem;
+    }
+    
+    .thumbnail-grid {
+        grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+        gap: 0.8rem;
+    }
+    
+    .image-details h3 {
+        font-size: 1.1rem;
+    }
+    
+    .image-actions {
+        flex-direction: column;
+        align-items: flex-start;
+        gap: 0.5rem;
+    }
+}
+
+@media (max-width: 480px) {
+    .image-container {
+        height: 300px;
+    }
+    
+    .nav-links {
+        flex-direction: column;
+        gap: 1rem;
+        align-items: center;
+    }
+    
+    .thumbnail-grid {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 0.5rem;
+    }
+    
+    .image-overlay {
+        padding: 2rem 1rem 1rem;
+    }
+    
+    .image-details h3 {
+        font-size: 1rem;
+    }
+}
+
+/* Smooth loading animation */
+.image-container {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+.thumbnail-item {
+    animation: fadeInUp 0.8s ease-out;
+}
+
+@keyframes fadeInUp {
+    from {
+        opacity: 0;
+        transform: translateY(30px);
+    }
+    to {
+        opacity: 1;
+        transform: translateY(0);
+    }
+}
+
+/* Stagger animation for thumbnails */
+.thumbnail-item:nth-child(1) { animation-delay: 0.1s; }
+.thumbnail-item:nth-child(2) { animation-delay: 0.2s; }
+.thumbnail-item:nth-child(3) { animation-delay: 0.3s; }
+.thumbnail-item:nth-child(4) { animation-delay: 0.4s; }
+.thumbnail-item:nth-child(5) { animation-delay: 0.5s; }
+
+/* Loading state */
+.main-image,
+.thumbnail-image {
+    opacity: 0;
+    transition: opacity 0.5s ease;
+}
+
+.main-image[src],
+.thumbnail-image[src] {
+    opacity: 1;
+}
+
+/* Focus states for accessibility */
+.nav-link:focus,
+.thumbnail-item:focus {
+    outline: 2px solid #000000;
+    outline-offset: 2px;
+}
+
+.view-link:focus {
+    outline: 2px solid #ffffff;
+    outline-offset: 2px;
 }
