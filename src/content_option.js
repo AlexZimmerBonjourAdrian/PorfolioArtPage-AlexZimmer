@@ -72,68 +72,76 @@ const services = [{
     },
 ];
 
-const dataportfolio = [{
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/800/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-
-    {
-        img: "https://picsum.photos/400/600/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/300/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/550/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-    {
-        img: "https://picsum.photos/400/700/?grayscale",
-        description: "The wisdom of life consists in the elimination of non-essentials.",
-        link: "#",
-    },
-];
+const dataportfolio = {
+    props: [
+        {
+            img: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=1920&h=1080&fit=crop&crop=center",
+            description: "Diseño de objetos que complementan la narrativa visual.",
+            link: "#",
+        },
+        {
+            img: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=1920&h=1080&fit=crop&crop=center",
+            description: "Elementos decorativos que enriquecen la composición.",
+            link: "#",
+        },
+        {
+            img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1920&h=1080&fit=crop&crop=center",
+            description: "Objetos funcionales que definen el espacio.",
+            link: "#",
+        },
+    ],
+    escenarios: [
+        {
+            img: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1920&h=1080&fit=crop&crop=center",
+            description: "Ambientes que transportan al espectador a mundos únicos.",
+            link: "#",
+        },
+        {
+            img: "https://images.unsplash.com/photo-1549887534-1541e9326642?w=1920&h=1080&fit=crop&crop=center",
+            description: "Espacios que cuentan historias a través del diseño.",
+            link: "#",
+        },
+        {
+            img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1920&h=1080&fit=crop&crop=center",
+            description: "Entornos que crean atmósferas memorables.",
+            link: "#",
+        },
+    ],
+    personajes: [
+        {
+            img: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=1920&h=1080&fit=crop&crop=center",
+            description: "Personajes que cobran vida a través del arte digital.",
+            link: "#",
+        },
+        {
+            img: "https://images.unsplash.com/photo-1541961017774-22349e4a1262?w=1920&h=1080&fit=crop&crop=center",
+            description: "Expresiones que transmiten emociones profundas.",
+            link: "#",
+        },
+        {
+            img: "https://images.unsplash.com/photo-1557804506-669a67965ba0?w=1920&h=1080&fit=crop&crop=center",
+            description: "Retratos que capturan la esencia humana.",
+            link: "#",
+        },
+    ],
+    composiciones: [
+        {
+            img: "https://images.unsplash.com/photo-1549887534-1541e9326642?w=1920&h=1080&fit=crop&crop=center",
+            description: "Composiciones que equilibran forma y contenido.",
+            link: "#",
+        },
+        {
+            img: "https://images.unsplash.com/photo-1578662996442-48f60103fc96?w=1920&h=1080&fit=crop&crop=center",
+            description: "Arreglos visuales que crean armonía perfecta.",
+            link: "#",
+        },
+        {
+            img: "https://images.unsplash.com/photo-1558655146-d09347e92766?w=1920&h=1080&fit=crop&crop=center",
+            description: "Diseños que fusionan elementos en unidad visual.",
+            link: "#",
+        },
+    ],
+};
 
 const contactConfig = {
     YOUR_EMAIL: "name@domain.com",
